@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "lts/*"
       - name: console githubToken
-        run: echo ${{ secrets.GITHUB_TOKEN }}
+        run: echo '${{ toJSON(secrets.GITHUB_TOKEN) }}'
       - name: Install dependencies
         run: npm ci
       - name: Release
