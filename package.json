@@ -1,0 +1,23 @@
+{
+  "name": "github-semantic-release",
+  "version": "1.0.0",
+  "description": "initial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxuanzong/github-semantic-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenxuanzong/github-semantic-release/issues"
+  },
+  "homepage": "https://github.com/chenxuanzong/github-semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}
